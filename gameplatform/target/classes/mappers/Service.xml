@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="GamePlatform.dao.ServiceDao">
+    <insert id="addService" parameterType="Service" useGeneratedKeys="true" keyProperty="serviceID">
+        insert into service(ProviderName,GameType,ServiceTitle,Price,ServiceType,GameLevel,ServiceDescription,ServiceImagePath)
+        values(#{providerName,jdbcType=VARCHAR},#{gameType,jdbcType=VARCHAR},#{serviceTitle,jdbcType=VARCHAR},
+        #{price,jdbcType=DOUBLE},#{serviceType,jdbcType=VARCHAR},#{gameLevel,jdbcType=VARCHAR},#{serviceDescription,jdbcType=VARCHAR},#{serviceimagepath,jdbcType=VARCHAR})
+    </insert>
+
+    <select id="listService" resultMap="ServiceResultMap">
+        select * from service
+    </select>
+
+    <resultMap id="ServiceResultMap" type="Service">
+        <id property="serviceID" column="ServiceID"/>
+        <result property="providerName" column="ProviderName"/>
+        <result property="gameType" column="GameType"/>
+        <result property="serviceTitle" column="ServiceTitle"/>
+        <result property="price" column="Price"/>
+        <result property="serviceType" column="ServiceType"/>
+        <result property="gameLevel" column="GameLevel"/>
+        <result property="serviceDescription" column="ServiceDescription"/>
+    </resultMap>
+</mapper>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="GamePlatform.dao.OrderDao">
+
+    <resultMap type="User" id="UserResult">
+        <result property="username" column="UserName"/>
+        <result property="password" column="UserPass"/>
+    </resultMap>
+
+    <select id="getByUsername" parameterType="String" resultMap="UserResult">
+        SELECT * FROM user WHERE username=#{UserName}
+    </select>
+    <insert id="addOrder" parameterType="GamePlatform.entity.Order" useGeneratedKeys="true" keyProperty="orderID">
+        insert into
+        `order`(ServiceID,ConsumerName,OrderState)
+        values (#{serviceID}, #{consumerName,jdbcType=VARCHAR},#{orderState,jdbcType=VARCHAR}
+        )
+    </insert>
+
+</mapper>

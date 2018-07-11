@@ -1,6 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="GBK">
+    <file url="file://$PROJECT_DIR$/src/main/resources/css/animate.min.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/css/bootstrap.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/css/flexslider.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/css/jquery-ui.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/css/jquery.countdown.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/css/publish-style.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/css/style.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/images" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/js/bootstrap-3.1.1.min.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/js/classie.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/js/imagezoom.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/js/jquery.countdown.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/js/jquery.flexslider.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/js/jquery.wmuSlider.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/js/script.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/js/simpleCart.min.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/js/uisearch.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/js/wow.min.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/VideoList.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/static/css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/static/css/animate.min.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/static/css/bootstrap.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/static/css/flexslider.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/static/css/jquery-ui.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/static/css/jquery.countdown.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/static/css/publish-style.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/static/css/style.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/static/dist" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/static/fileinput/js/fileinput.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/static/fonts" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/static/images" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/static/js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/static/js/bootstrap-3.1.1.min.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/static/js/classie.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/static/js/imagezoom.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/static/js/jquery.countdown.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/static/js/jquery.flexslider.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/static/js/script.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/static/js/simpleCart.min.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/static/js/uisearch.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/static/js/wow.min.js" charset="GBK" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
